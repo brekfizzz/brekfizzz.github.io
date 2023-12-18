@@ -22,6 +22,56 @@
   object-fit: cover;
 }
 
+.home .secondary-CTA-log-in {
+  position: absolute;
+  width: 323px;
+  height: 49px;
+  top: 23px;
+  left: 894px;
+  background-color: #3366ff;
+  border-radius: 10px;
+}
+
+.home .overlap-group {
+  position: relative;
+  width: 53px;
+  height: 32px;
+  top: 8px;
+  left: 135px;
+}
+
+.home .get-started {
+  position: absolute;
+  width: 53px;
+  top: 0;
+  left: 0;
+  font-family: var(--body-text-18px-regular-font-family);
+  font-weight: var(--body-text-18px-regular-font-weight);
+  color: var(--white);
+  font-size: var(--body-text-18px-regular-font-size);
+  text-align: center;
+  letter-spacing: var(--body-text-18px-regular-letter-spacing);
+  line-height: var(--body-text-18px-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-text-18px-regular-font-style);
+}
+
+.home .live-link {
+  position: absolute;
+  width: 53px;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
 .home .header {
   position: relative;
   align-self: stretch;
@@ -101,7 +151,7 @@
   border-radius: 10px;
 }
 
-.home .overlap-group {
+.home .overlap-group-2 {
   position: relative;
   height: 64px;
   border-radius: 10px;
@@ -118,7 +168,7 @@
   transition: all 0.2s ease;
 }
 
-.home .get-started {
+.home .text-wrapper {
   position: absolute;
   height: 32px;
   top: 15px;
@@ -134,7 +184,7 @@
   font-style: var(--body-text-18px-regular-font-style);
 }
 
-.home .live-link {
+.home .live-link-2 {
   position: absolute;
   height: 32px;
   top: 15px;
@@ -181,7 +231,7 @@
   position: relative;
   width: 353px;
   height: 400px;
-  background-image: url(./img/george-washers.jpeg);
+  background-image: url(./img/image-3.png);
   background-size: 100% 100%;
 }
 
@@ -262,7 +312,7 @@
   left: 160px;
 }
 
-.home .text-wrapper {
+.home .title-2 {
   width: 385px;
   position: relative;
   margin-top: -1px;
